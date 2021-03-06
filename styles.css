@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.6;
+}
+
+p{
+    font-family: 'Source Code Pro', monospace;
+}
+
+header{
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer p{
+    align-items: flex-end;
+    margin: 15px;
+}
+
+section h4{
+    text-align: center;
+}
+
+#tables{
+    display: flex;
+    justify-content: center;
+}
+
+.row div{
+    background-color: chocolate;
+    border: 1px solid brown;
+    height: 100px;
+    width: 100px;
+}
+
+.row div:hover { 
+    background-color:darkkhaki;
+}
+
